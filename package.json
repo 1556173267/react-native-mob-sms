@@ -1,0 +1,30 @@
+{
+  "name": "@superhao/react-native-mob-sms",
+  "version": "1.0.0",
+  "description": "React Native bridging library that integrates Mob-SMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1556173267/react-native-mob-sms.git"
+  },
+  "keywords": [
+    "react-native",
+    "mob",
+    "sms",
+    "react",
+    "android",
+    "ios"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  },
+  "author": "superhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1556173267/react-native-mob-sms/issues"
+  },
+  "homepage": "https://github.com/1556173267/react-native-mob-sms#readme"
+}
