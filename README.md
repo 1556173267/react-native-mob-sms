@@ -15,6 +15,29 @@ npm install @superhao/react-native-mob-sms --save
 react-native link @superhao/react-native-mob-sms
 ```
 
+* Config
+
+```java
+...
+
+import com.superhao.react_native_mob_sms.MobSMS; // <--- IMPORT
+
+public class MainActivity extends ReactActivity {
+
+  ...
+  
+  @Override
+  public void onCreate() {
+    super.onCreate();
+    ...
+    MobSMS.init(this, "your-mob-appkey", "your-mob-appsecret"); // <--- ADD HERE
+    ...
+  }
+  
+  ...
+}
+```
+
 ### Manually
 
 * android/settings.gradle
@@ -38,6 +61,7 @@ dependencies {
 ...
 
 import com.superhao.react_native_mob_sms.MobSMSReactPackage; // <--- IMPORT
+import com.superhao.react_native_mob_sms.MobSMS; // <--- IMPORT
 
 public class MainActivity extends ReactActivity {
 
@@ -57,7 +81,7 @@ public class MainActivity extends ReactActivity {
   public void onCreate() {
     super.onCreate();
     ...
-    MobSMS.init(this, "your-mob-appkey", "your-mob-appsecret");
+    MobSMS.init(this, "your-mob-appkey", "your-mob-appsecret"); // <--- ADD HERE
     ...
   }
 }
@@ -80,14 +104,22 @@ react-native link @superhao/react-native-mob-sms
 * Added the following libraries to your "Link Binary With Libraries":
   * [x] libz
   * [x] libicucore
-  * [x] MessageUI.framework
+  * [x] libReactNativeMobSMS.a
   * [x] JavaScriptCore.framework
-  * [x] libstdc++ (libc++ for after xcode10)
   * [ ] SystemConfiguration.framework
   * [ ] CoreTelephony.framework
   * [ ] AdSupport.framework
   * [ ] AddressBook.framework
   * [ ] AddressBookUI.framework
+
+* ADD Your MOBAppKey and MOBAppSecret into Info.plist
+
+```xml
+<key>MOBAppSecret</key>
+<string>Your-MOBAppSecret</string>
+<key>MOBAppKey</key>
+<string>Your-MOBAppKey</string>
+```
 
 ## General Usage
 
