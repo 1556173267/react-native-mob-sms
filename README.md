@@ -97,7 +97,7 @@ import {sendCode} from '@superhao/react-native-mob-sms';
 
 ```
 
-```javascript
+```
 sendCode('your-phone, 'your-zone', 'your-template').
   then((data)=>{
     if (Platform.OS === 'ios') {
