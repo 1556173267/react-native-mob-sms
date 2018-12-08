@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1F915D12136412200B7188F /* ReactNativeMobSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F915D02136412200B7188F /* ReactNativeMobSMS.m */; };
+		C1F915D22136412200B7188F /* ReactNativeMobSMS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1F915CF2136412200B7188F /* ReactNativeMobSMS.h */; };
+		C1F9165D21366A7500B7188F /* SMS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F9165821366A7500B7188F /* SMS_SDK.a */; };
+		C1F9168821366A8E00B7188F /* MOBFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F9168421366A8E00B7188F /* MOBFoundation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1F915CA2136412200B7188F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C1F915D22136412200B7188F /* ReactNativeMobSMS.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1F915CC2136412200B7188F /* libReactNativeMobSMS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeMobSMS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F915CF2136412200B7188F /* ReactNativeMobSMS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeMobSMS.h; sourceTree = "<group>"; };
+		C1F915D02136412200B7188F /* ReactNativeMobSMS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeMobSMS.m; sourceTree = "<group>"; };
+		C1F9165721366A7500B7188F /* SMSSDKUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKUserInfo.h; sourceTree = "<group>"; };
+		C1F9165821366A7500B7188F /* SMS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = SMS_SDK.a; sourceTree = "<group>"; };
+		C1F9165921366A7500B7188F /* SMSSDKResultHandlerDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKResultHandlerDef.h; sourceTree = "<group>"; };
+		C1F9165A21366A7500B7188F /* SMSSDK+ContactFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMSSDK+ContactFriends.h"; sourceTree = "<group>"; };
+		C1F9165B21366A7500B7188F /* SMSSDKAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKAddressBook.h; sourceTree = "<group>"; };
+		C1F9165C21366A7500B7188F /* SMSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDK.h; sourceTree = "<group>"; };
+		C1F9165F21366A8E00B7188F /* MOBFDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDataService.h; sourceTree = "<group>"; };
+		C1F9166021366A8E00B7188F /* MOBFJSTypeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSTypeDefine.h; sourceTree = "<group>"; };
+		C1F9166121366A8E00B7188F /* MOBFXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFXml.h; sourceTree = "<group>"; };
+		C1F9166221366A8E00B7188F /* MOBFApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFApplication.h; sourceTree = "<group>"; };
+		C1F9166321366A8E00B7188F /* MOBFHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFHttpService.h; sourceTree = "<group>"; };
+		C1F9166421366A8E00B7188F /* MOBFRSAKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRSAKey.h; sourceTree = "<group>"; };
+		C1F9166521366A8E00B7188F /* MOBFTagService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFTagService.h; sourceTree = "<group>"; };
+		C1F9166621366A8E00B7188F /* MobSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobSDK.h; sourceTree = "<group>"; };
+		C1F9166721366A8E00B7188F /* MOBFImageCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageCachePolicy.h; sourceTree = "<group>"; };
+		C1F9166821366A8E00B7188F /* MOBFLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFLogService.h; sourceTree = "<group>"; };
+		C1F9166921366A8E00B7188F /* MOBFRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRegex.h; sourceTree = "<group>"; };
+		C1F9166A21366A8E00B7188F /* MOBFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFColor.h; sourceTree = "<group>"; };
+		C1F9166B21366A8E00B7188F /* MOBFDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDebug.h; sourceTree = "<group>"; };
+		C1F9166C21366A8E00B7188F /* MOBFRSAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRSAHelper.h; sourceTree = "<group>"; };
+		C1F9166D21366A8E00B7188F /* MOBFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFString.h; sourceTree = "<group>"; };
+		C1F9166E21366A8E00B7188F /* MOBFDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDate.h; sourceTree = "<group>"; };
+		C1F9166F21366A8E00B7188F /* MOBFNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFNotificationCenter.h; sourceTree = "<group>"; };
+		C1F9167021366A8E00B7188F /* MOBFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFNumber.h; sourceTree = "<group>"; };
+		C1F9167121366A8E00B7188F /* IMOBFPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBFPlugin.h; sourceTree = "<group>"; };
+		C1F9167221366A8E00B7188F /* MOBFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFViewController.h; sourceTree = "<group>"; };
+		C1F9167321366A8E00B7188F /* MOBFImageServiceTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageServiceTypeDef.h; sourceTree = "<group>"; };
+		C1F9167421366A8E00B7188F /* MOBFData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFData.h; sourceTree = "<group>"; };
+		C1F9167521366A8E00B7188F /* MOBFHttpPostedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFHttpPostedFile.h; sourceTree = "<group>"; };
+		C1F9167621366A8E00B7188F /* MOBFXmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFXmlNode.h; sourceTree = "<group>"; };
+		C1F9167721366A8E00B7188F /* MOBFUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFUser.h; sourceTree = "<group>"; };
+		C1F9167821366A8E00B7188F /* MOBFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDevice.h; sourceTree = "<group>"; };
+		C1F9167921366A8E00B7188F /* MOBFJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJson.h; sourceTree = "<group>"; };
+		C1F9167A21366A8E00B7188F /* MOBFDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDataModel.h; sourceTree = "<group>"; };
+		C1F9167B21366A8E00B7188F /* MOBFJSMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSMethod.h; sourceTree = "<group>"; };
+		C1F9167C21366A8E00B7188F /* MOBFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImage.h; sourceTree = "<group>"; };
+		C1F9167D21366A8E00B7188F /* MOBFOAuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFOAuthService.h; sourceTree = "<group>"; };
+		C1F9167E21366A8E00B7188F /* UIView+MOBFWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MOBFWebCache.h"; sourceTree = "<group>"; };
+		C1F9167F21366A8E00B7188F /* MOBFPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFPluginManager.h; sourceTree = "<group>"; };
+		C1F9168021366A8E00B7188F /* IMOBBaseUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBBaseUser.h; sourceTree = "<group>"; };
+		C1F9168121366A8E00B7188F /* MOBFImageObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageObserver.h; sourceTree = "<group>"; };
+		C1F9168221366A8E00B7188F /* IMOBFDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBFDataModel.h; sourceTree = "<group>"; };
+		C1F9168321366A8E00B7188F /* UIImageView+MOBFWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MOBFWebCache.h"; sourceTree = "<group>"; };
+		C1F9168421366A8E00B7188F /* MOBFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = MOBFoundation.a; sourceTree = "<group>"; };
+		C1F9168521366A8E00B7188F /* MOBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFoundation.h; sourceTree = "<group>"; };
+		C1F9168621366A8E00B7188F /* MOBFImageGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageGetter.h; sourceTree = "<group>"; };
+		C1F9168721366A8E00B7188F /* MOBFJSContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSContext.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F915C92136412200B7188F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F9165D21366A7500B7188F /* SMS_SDK.a in Frameworks */,
+				C1F9168821366A8E00B7188F /* MOBFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1F915C32136412200B7188F = {
+			isa = PBXGroup;
+			children = (
+				C1F915CE2136412200B7188F /* ReactNativeMobSMS */,
+				C1F915CD2136412200B7188F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F915CD2136412200B7188F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F915CC2136412200B7188F /* libReactNativeMobSMS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F915CE2136412200B7188F /* ReactNativeMobSMS */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9165E21366A8E00B7188F /* MOBFoundation */,
+				C1F9165621366A7500B7188F /* SMS_SDK */,
+				C1F915CF2136412200B7188F /* ReactNativeMobSMS.h */,
+				C1F915D02136412200B7188F /* ReactNativeMobSMS.m */,
+			);
+			path = ReactNativeMobSMS;
+			sourceTree = "<group>";
+		};
+		C1F9165621366A7500B7188F /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9165721366A7500B7188F /* SMSSDKUserInfo.h */,
+				C1F9165821366A7500B7188F /* SMS_SDK.a */,
+				C1F9165921366A7500B7188F /* SMSSDKResultHandlerDef.h */,
+				C1F9165A21366A7500B7188F /* SMSSDK+ContactFriends.h */,
+				C1F9165B21366A7500B7188F /* SMSSDKAddressBook.h */,
+				C1F9165C21366A7500B7188F /* SMSSDK.h */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		C1F9165E21366A8E00B7188F /* MOBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9165F21366A8E00B7188F /* MOBFDataService.h */,
+				C1F9166021366A8E00B7188F /* MOBFJSTypeDefine.h */,
+				C1F9166121366A8E00B7188F /* MOBFXml.h */,
+				C1F9166221366A8E00B7188F /* MOBFApplication.h */,
+				C1F9166321366A8E00B7188F /* MOBFHttpService.h */,
+				C1F9166421366A8E00B7188F /* MOBFRSAKey.h */,
+				C1F9166521366A8E00B7188F /* MOBFTagService.h */,
+				C1F9166621366A8E00B7188F /* MobSDK.h */,
+				C1F9166721366A8E00B7188F /* MOBFImageCachePolicy.h */,
+				C1F9166821366A8E00B7188F /* MOBFLogService.h */,
+				C1F9166921366A8E00B7188F /* MOBFRegex.h */,
+				C1F9166A21366A8E00B7188F /* MOBFColor.h */,
+				C1F9166B21366A8E00B7188F /* MOBFDebug.h */,
+				C1F9166C21366A8E00B7188F /* MOBFRSAHelper.h */,
+				C1F9166D21366A8E00B7188F /* MOBFString.h */,
+				C1F9166E21366A8E00B7188F /* MOBFDate.h */,
+				C1F9166F21366A8E00B7188F /* MOBFNotificationCenter.h */,
+				C1F9167021366A8E00B7188F /* MOBFNumber.h */,
+				C1F9167121366A8E00B7188F /* IMOBFPlugin.h */,
+				C1F9167221366A8E00B7188F /* MOBFViewController.h */,
+				C1F9167321366A8E00B7188F /* MOBFImageServiceTypeDef.h */,
+				C1F9167421366A8E00B7188F /* MOBFData.h */,
+				C1F9167521366A8E00B7188F /* MOBFHttpPostedFile.h */,
+				C1F9167621366A8E00B7188F /* MOBFXmlNode.h */,
+				C1F9167721366A8E00B7188F /* MOBFUser.h */,
+				C1F9167821366A8E00B7188F /* MOBFDevice.h */,
+				C1F9167921366A8E00B7188F /* MOBFJson.h */,
+				C1F9167A21366A8E00B7188F /* MOBFDataModel.h */,
+				C1F9167B21366A8E00B7188F /* MOBFJSMethod.h */,
+				C1F9167C21366A8E00B7188F /* MOBFImage.h */,
+				C1F9167D21366A8E00B7188F /* MOBFOAuthService.h */,
+				C1F9167E21366A8E00B7188F /* UIView+MOBFWebCache.h */,
+				C1F9167F21366A8E00B7188F /* MOBFPluginManager.h */,
+				C1F9168021366A8E00B7188F /* IMOBBaseUser.h */,
+				C1F9168121366A8E00B7188F /* MOBFImageObserver.h */,
+				C1F9168221366A8E00B7188F /* IMOBFDataModel.h */,
+				C1F9168321366A8E00B7188F /* UIImageView+MOBFWebCache.h */,
+				C1F9168421366A8E00B7188F /* MOBFoundation.a */,
+				C1F9168521366A8E00B7188F /* MOBFoundation.h */,
+				C1F9168621366A8E00B7188F /* MOBFImageGetter.h */,
+				C1F9168721366A8E00B7188F /* MOBFJSContext.h */,
+			);
+			path = MOBFoundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F915CB2136412200B7188F /* ReactNativeMobSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F915D52136412200B7188F /* Build configuration list for PBXNativeTarget "ReactNativeMobSMS" */;
+			buildPhases = (
+				C1F915C82136412200B7188F /* Sources */,
+				C1F915C92136412200B7188F /* Frameworks */,
+				C1F915CA2136412200B7188F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeMobSMS;
+			productName = ReactNativeMobSMS;
+			productReference = C1F915CC2136412200B7188F /* libReactNativeMobSMS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F915C42136412200B7188F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = superhao;
+				TargetAttributes = {
+					C1F915CB2136412200B7188F = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C1F915C72136412200B7188F /* Build configuration list for PBXProject "ReactNativeMobSMS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1F915C32136412200B7188F;
+			productRefGroup = C1F915CD2136412200B7188F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F915CB2136412200B7188F /* ReactNativeMobSMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F915C82136412200B7188F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F915D12136412200B7188F /* ReactNativeMobSMS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1F915D32136412200B7188F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1F915D42136412200B7188F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F915D62136412200B7188F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/lib",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/SMS_SDK",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/MOBFoundation",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1F915D72136412200B7188F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/lib",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/SMS_SDK",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/MOBFoundation",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F915C72136412200B7188F /* Build configuration list for PBXProject "ReactNativeMobSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F915D32136412200B7188F /* Debug */,
+				C1F915D42136412200B7188F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F915D52136412200B7188F /* Build configuration list for PBXNativeTarget "ReactNativeMobSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F915D62136412200B7188F /* Debug */,
+				C1F915D72136412200B7188F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F915C42136412200B7188F /* Project object */;
+}
