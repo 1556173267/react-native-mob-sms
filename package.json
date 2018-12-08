@@ -1,6 +1,6 @@
 {
   "name": "@superhao/react-native-mob-sms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native bridging library that integrates Mob-SMS",
   "main": "index.js",
   "scripts": {
