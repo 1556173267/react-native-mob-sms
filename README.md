@@ -121,6 +121,9 @@ react-native link @superhao/react-native-mob-sms
 <string>Your-MOBAppKey</string>
 ```
 
+### File Not Found?
+if you see error with #import <SMS_SDK/SMSSDK.h> #import <SMS_SDK/SMSSDKResultHandlerDef.h> #import <SMS_SDK/SMSSDKUserInfo.h> .... file not found, you can fix with "SMSSDK.h", "SMSSDKResultHandlerDef", "SMSSDKUserInfo"
+
 ## General Usage
 
 ```javascript
