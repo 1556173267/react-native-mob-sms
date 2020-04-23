@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 掌淘科技. All rights reserved.
 //
 
-#import "SMSSDK.h"
+#import <SMS_SDK/SMSSDK.h>
 
 @interface SMSSDK (ContactFriends)
 

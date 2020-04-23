@@ -7,7 +7,7 @@
 //
 
 #import "ReactNativeMobSMS.h"
-#import "SMSSDK.h"
+#import <SMS_SDK/SMSSDK.h>
 
 @implementation ReactNativeMobSMS
 

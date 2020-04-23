@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1312A46245180B9004ACE52 /* MOBFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1312A42245180B9004ACE52 /* MOBFoundation.a */; };
+		C1312A4E245180C4004ACE52 /* SMS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1312A49245180C4004ACE52 /* SMS_SDK.a */; };
 		C1F915D12136412200B7188F /* ReactNativeMobSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F915D02136412200B7188F /* ReactNativeMobSMS.m */; };
 		C1F915D22136412200B7188F /* ReactNativeMobSMS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1F915CF2136412200B7188F /* ReactNativeMobSMS.h */; };
-		C1F9165D21366A7500B7188F /* SMS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F9165821366A7500B7188F /* SMS_SDK.a */; };
-		C1F9168821366A8E00B7188F /* MOBFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F9168421366A8E00B7188F /* MOBFoundation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,56 +27,59 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C1312A1A245180B9004ACE52 /* MOBFDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDataService.h; sourceTree = "<group>"; };
+		C1312A1B245180B9004ACE52 /* MOBFJSTypeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSTypeDefine.h; sourceTree = "<group>"; };
+		C1312A1C245180B9004ACE52 /* MOBFXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFXml.h; sourceTree = "<group>"; };
+		C1312A1D245180B9004ACE52 /* MOBFApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFApplication.h; sourceTree = "<group>"; };
+		C1312A1E245180B9004ACE52 /* MOBFHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFHttpService.h; sourceTree = "<group>"; };
+		C1312A1F245180B9004ACE52 /* MOBFRSAKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRSAKey.h; sourceTree = "<group>"; };
+		C1312A20245180B9004ACE52 /* MOBFTagService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFTagService.h; sourceTree = "<group>"; };
+		C1312A21245180B9004ACE52 /* MobSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobSDK.h; sourceTree = "<group>"; };
+		C1312A22245180B9004ACE52 /* MOBFImageCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageCachePolicy.h; sourceTree = "<group>"; };
+		C1312A23245180B9004ACE52 /* MOBFLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFLogService.h; sourceTree = "<group>"; };
+		C1312A24245180B9004ACE52 /* MOBFRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRegex.h; sourceTree = "<group>"; };
+		C1312A25245180B9004ACE52 /* MOBFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFColor.h; sourceTree = "<group>"; };
+		C1312A26245180B9004ACE52 /* MOBFDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDebug.h; sourceTree = "<group>"; };
+		C1312A27245180B9004ACE52 /* MOBFRSAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRSAHelper.h; sourceTree = "<group>"; };
+		C1312A28245180B9004ACE52 /* MOBFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFString.h; sourceTree = "<group>"; };
+		C1312A29245180B9004ACE52 /* MOBFDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDate.h; sourceTree = "<group>"; };
+		C1312A2A245180B9004ACE52 /* MOBFNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFNotificationCenter.h; sourceTree = "<group>"; };
+		C1312A2B245180B9004ACE52 /* MOBSDKDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBSDKDef.h; sourceTree = "<group>"; };
+		C1312A2C245180B9004ACE52 /* MOBFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFNumber.h; sourceTree = "<group>"; };
+		C1312A2D245180B9004ACE52 /* IMOBFPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBFPlugin.h; sourceTree = "<group>"; };
+		C1312A2E245180B9004ACE52 /* MOBFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFViewController.h; sourceTree = "<group>"; };
+		C1312A2F245180B9004ACE52 /* MOBFImageServiceTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageServiceTypeDef.h; sourceTree = "<group>"; };
+		C1312A30245180B9004ACE52 /* MOBFWKWebViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFWKWebViewContext.h; sourceTree = "<group>"; };
+		C1312A31245180B9004ACE52 /* MOBFData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFData.h; sourceTree = "<group>"; };
+		C1312A32245180B9004ACE52 /* MOBFHttpPostedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFHttpPostedFile.h; sourceTree = "<group>"; };
+		C1312A33245180B9004ACE52 /* MOBFXmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFXmlNode.h; sourceTree = "<group>"; };
+		C1312A34245180B9004ACE52 /* MobSDK+Privacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MobSDK+Privacy.h"; sourceTree = "<group>"; };
+		C1312A35245180B9004ACE52 /* MOBFUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFUser.h; sourceTree = "<group>"; };
+		C1312A36245180B9004ACE52 /* MOBFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDevice.h; sourceTree = "<group>"; };
+		C1312A37245180B9004ACE52 /* MOBFJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJson.h; sourceTree = "<group>"; };
+		C1312A38245180B9004ACE52 /* MOBFDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDataModel.h; sourceTree = "<group>"; };
+		C1312A39245180B9004ACE52 /* MOBFJSMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSMethod.h; sourceTree = "<group>"; };
+		C1312A3A245180B9004ACE52 /* MOBFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImage.h; sourceTree = "<group>"; };
+		C1312A3B245180B9004ACE52 /* MOBFOAuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFOAuthService.h; sourceTree = "<group>"; };
+		C1312A3C245180B9004ACE52 /* UIView+MOBFWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MOBFWebCache.h"; sourceTree = "<group>"; };
+		C1312A3D245180B9004ACE52 /* MOBFPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFPluginManager.h; sourceTree = "<group>"; };
+		C1312A3E245180B9004ACE52 /* IMOBBaseUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBBaseUser.h; sourceTree = "<group>"; };
+		C1312A3F245180B9004ACE52 /* MOBFImageObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageObserver.h; sourceTree = "<group>"; };
+		C1312A40245180B9004ACE52 /* IMOBFDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBFDataModel.h; sourceTree = "<group>"; };
+		C1312A41245180B9004ACE52 /* UIImageView+MOBFWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MOBFWebCache.h"; sourceTree = "<group>"; };
+		C1312A42245180B9004ACE52 /* MOBFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = MOBFoundation.a; sourceTree = "<group>"; };
+		C1312A43245180B9004ACE52 /* MOBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFoundation.h; sourceTree = "<group>"; };
+		C1312A44245180B9004ACE52 /* MOBFImageGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageGetter.h; sourceTree = "<group>"; };
+		C1312A45245180B9004ACE52 /* MOBFJSContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSContext.h; sourceTree = "<group>"; };
+		C1312A48245180C4004ACE52 /* SMSSDKUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKUserInfo.h; sourceTree = "<group>"; };
+		C1312A49245180C4004ACE52 /* SMS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = SMS_SDK.a; sourceTree = "<group>"; };
+		C1312A4A245180C4004ACE52 /* SMSSDKResultHandlerDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKResultHandlerDef.h; sourceTree = "<group>"; };
+		C1312A4B245180C4004ACE52 /* SMSSDK+ContactFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMSSDK+ContactFriends.h"; sourceTree = "<group>"; };
+		C1312A4C245180C4004ACE52 /* SMSSDKAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKAddressBook.h; sourceTree = "<group>"; };
+		C1312A4D245180C4004ACE52 /* SMSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDK.h; sourceTree = "<group>"; };
 		C1F915CC2136412200B7188F /* libReactNativeMobSMS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeMobSMS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F915CF2136412200B7188F /* ReactNativeMobSMS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeMobSMS.h; sourceTree = "<group>"; };
 		C1F915D02136412200B7188F /* ReactNativeMobSMS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeMobSMS.m; sourceTree = "<group>"; };
-		C1F9165721366A7500B7188F /* SMSSDKUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKUserInfo.h; sourceTree = "<group>"; };
-		C1F9165821366A7500B7188F /* SMS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = SMS_SDK.a; sourceTree = "<group>"; };
-		C1F9165921366A7500B7188F /* SMSSDKResultHandlerDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKResultHandlerDef.h; sourceTree = "<group>"; };
-		C1F9165A21366A7500B7188F /* SMSSDK+ContactFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SMSSDK+ContactFriends.h"; sourceTree = "<group>"; };
-		C1F9165B21366A7500B7188F /* SMSSDKAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKAddressBook.h; sourceTree = "<group>"; };
-		C1F9165C21366A7500B7188F /* SMSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDK.h; sourceTree = "<group>"; };
-		C1F9165F21366A8E00B7188F /* MOBFDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDataService.h; sourceTree = "<group>"; };
-		C1F9166021366A8E00B7188F /* MOBFJSTypeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSTypeDefine.h; sourceTree = "<group>"; };
-		C1F9166121366A8E00B7188F /* MOBFXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFXml.h; sourceTree = "<group>"; };
-		C1F9166221366A8E00B7188F /* MOBFApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFApplication.h; sourceTree = "<group>"; };
-		C1F9166321366A8E00B7188F /* MOBFHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFHttpService.h; sourceTree = "<group>"; };
-		C1F9166421366A8E00B7188F /* MOBFRSAKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRSAKey.h; sourceTree = "<group>"; };
-		C1F9166521366A8E00B7188F /* MOBFTagService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFTagService.h; sourceTree = "<group>"; };
-		C1F9166621366A8E00B7188F /* MobSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobSDK.h; sourceTree = "<group>"; };
-		C1F9166721366A8E00B7188F /* MOBFImageCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageCachePolicy.h; sourceTree = "<group>"; };
-		C1F9166821366A8E00B7188F /* MOBFLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFLogService.h; sourceTree = "<group>"; };
-		C1F9166921366A8E00B7188F /* MOBFRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRegex.h; sourceTree = "<group>"; };
-		C1F9166A21366A8E00B7188F /* MOBFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFColor.h; sourceTree = "<group>"; };
-		C1F9166B21366A8E00B7188F /* MOBFDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDebug.h; sourceTree = "<group>"; };
-		C1F9166C21366A8E00B7188F /* MOBFRSAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFRSAHelper.h; sourceTree = "<group>"; };
-		C1F9166D21366A8E00B7188F /* MOBFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFString.h; sourceTree = "<group>"; };
-		C1F9166E21366A8E00B7188F /* MOBFDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDate.h; sourceTree = "<group>"; };
-		C1F9166F21366A8E00B7188F /* MOBFNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFNotificationCenter.h; sourceTree = "<group>"; };
-		C1F9167021366A8E00B7188F /* MOBFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFNumber.h; sourceTree = "<group>"; };
-		C1F9167121366A8E00B7188F /* IMOBFPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBFPlugin.h; sourceTree = "<group>"; };
-		C1F9167221366A8E00B7188F /* MOBFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFViewController.h; sourceTree = "<group>"; };
-		C1F9167321366A8E00B7188F /* MOBFImageServiceTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageServiceTypeDef.h; sourceTree = "<group>"; };
-		C1F9167421366A8E00B7188F /* MOBFData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFData.h; sourceTree = "<group>"; };
-		C1F9167521366A8E00B7188F /* MOBFHttpPostedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFHttpPostedFile.h; sourceTree = "<group>"; };
-		C1F9167621366A8E00B7188F /* MOBFXmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFXmlNode.h; sourceTree = "<group>"; };
-		C1F9167721366A8E00B7188F /* MOBFUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFUser.h; sourceTree = "<group>"; };
-		C1F9167821366A8E00B7188F /* MOBFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDevice.h; sourceTree = "<group>"; };
-		C1F9167921366A8E00B7188F /* MOBFJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJson.h; sourceTree = "<group>"; };
-		C1F9167A21366A8E00B7188F /* MOBFDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFDataModel.h; sourceTree = "<group>"; };
-		C1F9167B21366A8E00B7188F /* MOBFJSMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSMethod.h; sourceTree = "<group>"; };
-		C1F9167C21366A8E00B7188F /* MOBFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImage.h; sourceTree = "<group>"; };
-		C1F9167D21366A8E00B7188F /* MOBFOAuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFOAuthService.h; sourceTree = "<group>"; };
-		C1F9167E21366A8E00B7188F /* UIView+MOBFWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MOBFWebCache.h"; sourceTree = "<group>"; };
-		C1F9167F21366A8E00B7188F /* MOBFPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFPluginManager.h; sourceTree = "<group>"; };
-		C1F9168021366A8E00B7188F /* IMOBBaseUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBBaseUser.h; sourceTree = "<group>"; };
-		C1F9168121366A8E00B7188F /* MOBFImageObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageObserver.h; sourceTree = "<group>"; };
-		C1F9168221366A8E00B7188F /* IMOBFDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMOBFDataModel.h; sourceTree = "<group>"; };
-		C1F9168321366A8E00B7188F /* UIImageView+MOBFWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MOBFWebCache.h"; sourceTree = "<group>"; };
-		C1F9168421366A8E00B7188F /* MOBFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = MOBFoundation.a; sourceTree = "<group>"; };
-		C1F9168521366A8E00B7188F /* MOBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFoundation.h; sourceTree = "<group>"; };
-		C1F9168621366A8E00B7188F /* MOBFImageGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFImageGetter.h; sourceTree = "<group>"; };
-		C1F9168721366A8E00B7188F /* MOBFJSContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBFJSContext.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,14 +87,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F9165D21366A7500B7188F /* SMS_SDK.a in Frameworks */,
-				C1F9168821366A8E00B7188F /* MOBFoundation.a in Frameworks */,
+				C1312A4E245180C4004ACE52 /* SMS_SDK.a in Frameworks */,
+				C1312A46245180B9004ACE52 /* MOBFoundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1312A19245180B9004ACE52 /* MOBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				C1312A1A245180B9004ACE52 /* MOBFDataService.h */,
+				C1312A1B245180B9004ACE52 /* MOBFJSTypeDefine.h */,
+				C1312A1C245180B9004ACE52 /* MOBFXml.h */,
+				C1312A1D245180B9004ACE52 /* MOBFApplication.h */,
+				C1312A1E245180B9004ACE52 /* MOBFHttpService.h */,
+				C1312A1F245180B9004ACE52 /* MOBFRSAKey.h */,
+				C1312A20245180B9004ACE52 /* MOBFTagService.h */,
+				C1312A21245180B9004ACE52 /* MobSDK.h */,
+				C1312A22245180B9004ACE52 /* MOBFImageCachePolicy.h */,
+				C1312A23245180B9004ACE52 /* MOBFLogService.h */,
+				C1312A24245180B9004ACE52 /* MOBFRegex.h */,
+				C1312A25245180B9004ACE52 /* MOBFColor.h */,
+				C1312A26245180B9004ACE52 /* MOBFDebug.h */,
+				C1312A27245180B9004ACE52 /* MOBFRSAHelper.h */,
+				C1312A28245180B9004ACE52 /* MOBFString.h */,
+				C1312A29245180B9004ACE52 /* MOBFDate.h */,
+				C1312A2A245180B9004ACE52 /* MOBFNotificationCenter.h */,
+				C1312A2B245180B9004ACE52 /* MOBSDKDef.h */,
+				C1312A2C245180B9004ACE52 /* MOBFNumber.h */,
+				C1312A2D245180B9004ACE52 /* IMOBFPlugin.h */,
+				C1312A2E245180B9004ACE52 /* MOBFViewController.h */,
+				C1312A2F245180B9004ACE52 /* MOBFImageServiceTypeDef.h */,
+				C1312A30245180B9004ACE52 /* MOBFWKWebViewContext.h */,
+				C1312A31245180B9004ACE52 /* MOBFData.h */,
+				C1312A32245180B9004ACE52 /* MOBFHttpPostedFile.h */,
+				C1312A33245180B9004ACE52 /* MOBFXmlNode.h */,
+				C1312A34245180B9004ACE52 /* MobSDK+Privacy.h */,
+				C1312A35245180B9004ACE52 /* MOBFUser.h */,
+				C1312A36245180B9004ACE52 /* MOBFDevice.h */,
+				C1312A37245180B9004ACE52 /* MOBFJson.h */,
+				C1312A38245180B9004ACE52 /* MOBFDataModel.h */,
+				C1312A39245180B9004ACE52 /* MOBFJSMethod.h */,
+				C1312A3A245180B9004ACE52 /* MOBFImage.h */,
+				C1312A3B245180B9004ACE52 /* MOBFOAuthService.h */,
+				C1312A3C245180B9004ACE52 /* UIView+MOBFWebCache.h */,
+				C1312A3D245180B9004ACE52 /* MOBFPluginManager.h */,
+				C1312A3E245180B9004ACE52 /* IMOBBaseUser.h */,
+				C1312A3F245180B9004ACE52 /* MOBFImageObserver.h */,
+				C1312A40245180B9004ACE52 /* IMOBFDataModel.h */,
+				C1312A41245180B9004ACE52 /* UIImageView+MOBFWebCache.h */,
+				C1312A42245180B9004ACE52 /* MOBFoundation.a */,
+				C1312A43245180B9004ACE52 /* MOBFoundation.h */,
+				C1312A44245180B9004ACE52 /* MOBFImageGetter.h */,
+				C1312A45245180B9004ACE52 /* MOBFJSContext.h */,
+			);
+			path = MOBFoundation;
+			sourceTree = "<group>";
+		};
+		C1312A47245180C4004ACE52 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C1312A48245180C4004ACE52 /* SMSSDKUserInfo.h */,
+				C1312A49245180C4004ACE52 /* SMS_SDK.a */,
+				C1312A4A245180C4004ACE52 /* SMSSDKResultHandlerDef.h */,
+				C1312A4B245180C4004ACE52 /* SMSSDK+ContactFriends.h */,
+				C1312A4C245180C4004ACE52 /* SMSSDKAddressBook.h */,
+				C1312A4D245180C4004ACE52 /* SMSSDK.h */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
 		C1F915C32136412200B7188F = {
 			isa = PBXGroup;
 			children = (
@@ -111,73 +178,12 @@
 		C1F915CE2136412200B7188F /* ReactNativeMobSMS */ = {
 			isa = PBXGroup;
 			children = (
-				C1F9165E21366A8E00B7188F /* MOBFoundation */,
-				C1F9165621366A7500B7188F /* SMS_SDK */,
+				C1312A47245180C4004ACE52 /* SMS_SDK */,
+				C1312A19245180B9004ACE52 /* MOBFoundation */,
 				C1F915CF2136412200B7188F /* ReactNativeMobSMS.h */,
 				C1F915D02136412200B7188F /* ReactNativeMobSMS.m */,
 			);
 			path = ReactNativeMobSMS;
-			sourceTree = "<group>";
-		};
-		C1F9165621366A7500B7188F /* SMS_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				C1F9165721366A7500B7188F /* SMSSDKUserInfo.h */,
-				C1F9165821366A7500B7188F /* SMS_SDK.a */,
-				C1F9165921366A7500B7188F /* SMSSDKResultHandlerDef.h */,
-				C1F9165A21366A7500B7188F /* SMSSDK+ContactFriends.h */,
-				C1F9165B21366A7500B7188F /* SMSSDKAddressBook.h */,
-				C1F9165C21366A7500B7188F /* SMSSDK.h */,
-			);
-			path = SMS_SDK;
-			sourceTree = "<group>";
-		};
-		C1F9165E21366A8E00B7188F /* MOBFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				C1F9165F21366A8E00B7188F /* MOBFDataService.h */,
-				C1F9166021366A8E00B7188F /* MOBFJSTypeDefine.h */,
-				C1F9166121366A8E00B7188F /* MOBFXml.h */,
-				C1F9166221366A8E00B7188F /* MOBFApplication.h */,
-				C1F9166321366A8E00B7188F /* MOBFHttpService.h */,
-				C1F9166421366A8E00B7188F /* MOBFRSAKey.h */,
-				C1F9166521366A8E00B7188F /* MOBFTagService.h */,
-				C1F9166621366A8E00B7188F /* MobSDK.h */,
-				C1F9166721366A8E00B7188F /* MOBFImageCachePolicy.h */,
-				C1F9166821366A8E00B7188F /* MOBFLogService.h */,
-				C1F9166921366A8E00B7188F /* MOBFRegex.h */,
-				C1F9166A21366A8E00B7188F /* MOBFColor.h */,
-				C1F9166B21366A8E00B7188F /* MOBFDebug.h */,
-				C1F9166C21366A8E00B7188F /* MOBFRSAHelper.h */,
-				C1F9166D21366A8E00B7188F /* MOBFString.h */,
-				C1F9166E21366A8E00B7188F /* MOBFDate.h */,
-				C1F9166F21366A8E00B7188F /* MOBFNotificationCenter.h */,
-				C1F9167021366A8E00B7188F /* MOBFNumber.h */,
-				C1F9167121366A8E00B7188F /* IMOBFPlugin.h */,
-				C1F9167221366A8E00B7188F /* MOBFViewController.h */,
-				C1F9167321366A8E00B7188F /* MOBFImageServiceTypeDef.h */,
-				C1F9167421366A8E00B7188F /* MOBFData.h */,
-				C1F9167521366A8E00B7188F /* MOBFHttpPostedFile.h */,
-				C1F9167621366A8E00B7188F /* MOBFXmlNode.h */,
-				C1F9167721366A8E00B7188F /* MOBFUser.h */,
-				C1F9167821366A8E00B7188F /* MOBFDevice.h */,
-				C1F9167921366A8E00B7188F /* MOBFJson.h */,
-				C1F9167A21366A8E00B7188F /* MOBFDataModel.h */,
-				C1F9167B21366A8E00B7188F /* MOBFJSMethod.h */,
-				C1F9167C21366A8E00B7188F /* MOBFImage.h */,
-				C1F9167D21366A8E00B7188F /* MOBFOAuthService.h */,
-				C1F9167E21366A8E00B7188F /* UIView+MOBFWebCache.h */,
-				C1F9167F21366A8E00B7188F /* MOBFPluginManager.h */,
-				C1F9168021366A8E00B7188F /* IMOBBaseUser.h */,
-				C1F9168121366A8E00B7188F /* MOBFImageObserver.h */,
-				C1F9168221366A8E00B7188F /* IMOBFDataModel.h */,
-				C1F9168321366A8E00B7188F /* UIImageView+MOBFWebCache.h */,
-				C1F9168421366A8E00B7188F /* MOBFoundation.a */,
-				C1F9168521366A8E00B7188F /* MOBFoundation.h */,
-				C1F9168621366A8E00B7188F /* MOBFImageGetter.h */,
-				C1F9168721366A8E00B7188F /* MOBFJSContext.h */,
-			);
-			path = MOBFoundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,12 +365,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/SDK/SMSSDK",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/SDK/Required",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReactNativeMobSMS/lib",
 					"$(PROJECT_DIR)/ReactNativeMobSMS/SMS_SDK",
 					"$(PROJECT_DIR)/ReactNativeMobSMS/MOBFoundation",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -376,12 +388,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/SDK/SMSSDK",
+					"$(PROJECT_DIR)/ReactNativeMobSMS/SDK/Required",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReactNativeMobSMS/lib",
 					"$(PROJECT_DIR)/ReactNativeMobSMS/SMS_SDK",
 					"$(PROJECT_DIR)/ReactNativeMobSMS/MOBFoundation",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

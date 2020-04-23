@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "SMSSDKResultHandlerDef.h"
-#import "SMSSDKUserInfo.h"
+#import <SMS_SDK/SMSSDKResultHandlerDef.h>
+#import <SMS_SDK/SMSSDKUserInfo.h>
 
 /**
  * @brief 核心类（Core class）v2.1.5
@@ -75,4 +75,16 @@
  */
 + (void) getCountryZone:(SMSGetZoneResultHandler)result;
 
+/**
+ * @from                    v1.1.1
+ * @brief                  通讯录服务授权弹窗
+ *
+ 
+ * @param refuseBlock  拒绝回调
+ * @param  acceptBlock 接受回调
+ * @param canShowDialogBlock 是否能显示弹窗回调
+ **/
++(void)showContactsServiceDialog:(nullable SMSSDKDialogViewHandler)refuseBlock
+                          accept:(nullable SMSSDKDialogViewHandler)acceptBlock
+                   canShowDialog:(nullable SMSSDKDialogViewShowHandler)canShowDialogBlock;
 @end

@@ -209,4 +209,18 @@ typedef NS_ENUM(NSUInteger, MOBFIPVersion)
  */
 + (NSString *)cpuType;
 
+/**
+ *  获取无线局域网的强度
+ *
+ *  @return 强度 3: 强 ，2：中， 1：弱 ，无
+ */
++ (int)wifiLevel;
+
+/**
+ *  获取原始当前网络类型
+ *
+ *  @return 网络类型
+ */
++ (NSString *)currentDataNetworkType;
+
 @end
